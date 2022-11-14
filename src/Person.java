@@ -36,8 +36,9 @@ public class Person {
 
     public String[] getArraySurname() {
         String[] arraySurname;
-
-        arraySurname = surname.split("-");
+        if(surname.contains("-")) {
+        arraySurname = surname.split("-");}
+        else {arraySurname = surname.split(" ");}
         return arraySurname;
     }
 

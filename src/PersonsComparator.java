@@ -12,6 +12,6 @@ public class PersonsComparator implements Comparator<Person> {
         } else {
             return o1.getAge() - o2.getAge();
         }
-       
+
     }
 }
