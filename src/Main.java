@@ -22,7 +22,7 @@ public class Main {
             } else {
                 return o1.getAge() - o2.getAge();
             }
-        }
+        };
 
         Collections.sort(persons, comparator);
         System.out.println(persons);
